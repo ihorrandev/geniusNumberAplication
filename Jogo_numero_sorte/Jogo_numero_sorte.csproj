@@ -55,6 +55,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -68,6 +74,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -86,6 +95,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Welcome to world of %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brain-gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-xbox-x-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-automatic-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jogo criado por Ihorran Cruz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jogo criado por Ihorran Cruz %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-go-back-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
